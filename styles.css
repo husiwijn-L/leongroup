@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+}
+
+header {
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 175px;
+}
+
+.minText {
+    display: flex;
+    gap: 32px;
+    margin-top: 15px;
+}
+
+.x {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.minText1 {
+    display: flex;
+    gap: 32px;
+}
+
+.x > a {
+    text-decoration: none;
+}
+
+.x > a > p {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: -1%;
+    color: black;    
+}
+
+.minText > a {
+    text-decoration: none;
+}
+
+.minText > a > p {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: -1%;
+    color: #97A1B0;
+}
+
+.minText1 > a {
+    text-decoration: none;
+}
+
+.minText1 > a > p {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: -1%;
+    color: #97A1B0;
+}
+
+span {
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0%;
+    text-align: right;    
+    color: black; 
+}
+
+headerTwo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+    margin-top: 24px;
+}
+
+.text {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text > a {
+    text-decoration: none;
+}
+
+.text > a > p {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+    color: black;
+}
+
+.button {
+    width: 224px;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button > p {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+    color: white;
+}
