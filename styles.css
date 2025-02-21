@@ -135,34 +135,207 @@ headerTwo {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .text1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-top: 64px;
     justify-content: center;
+    align-items: center;
+    margin-right: 110px;
+    gap: 32px;
+}
+
+.text1 > h1 {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -1%;
+}
+
+.text1 > p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0%;
+    
+}
+
+.slider-c {
+    width: auto;
+    overflow: hidden;
+    position: relative; 
+    margin-top: 64px;
 }
 
 .slider {
-    width: 1110px;
-    height: 400px;
-    overflow: hidden;
+    display: flex; 
+    transition: transform 0.5s all; 
 }
 
 .r {
     position: absolute;
-    top: 564px;
-    left: 1063px;
+    top: 88%; 
+    left: 1266px; 
+    border: none;
+    background: transparent; 
 }
 
 .l {
     position: absolute;
-    top: 564px;
-    left: 1010px;
+    top: 88%; 
+    left: 1215px; 
+    border: none;
+    background: transparent; 
 }
 
 .sl {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%; 
+}
+.slide {
+    font-size: 25px;
+    font-weight: 900;
+    display: none; 
+}
+
+.slide.current-slide {
+    display: block; 
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    gap: 608px;
+    margin-top: 32px;
+}
+
+.minText2 {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.minText2 > h3 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.63px;
+    letter-spacing: 0%;
+    border-bottom: 1px solid #E3E8ED;
+}
+
+.minText2 > p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #97A1B0;
+}
+
+.slide {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: -1%;
+    text-align: right;
+    color: #97A1B0;
+}
+
+.Dva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 112px;
+}
+
+.nada {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 56px;
+}
+
+.nada > h1 {
+    font-family: "Inter";
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1%;
+    
+}
+
+.knopki {
+    display: flex;
+    gap: 40px;
+}
+
+.knopki > a {
+    text-decoration: none;
+}
+
+.knopki > div > a {
+    text-decoration: none;
+}
+
+.knopki > a > p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0%;
+    color: #97A1B0;
+}
+
+.h {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0%;
+    
+}
+
+.text3 {
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.textMin {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.textMin > h3 {
+    width: 248px;
+    border-bottom: 1px solid #E3E8ED;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.63px;
+    letter-spacing: 0%;    
+}
+
+.textMin > p {
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    color: #97A1B0;
 }
