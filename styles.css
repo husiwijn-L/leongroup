@@ -339,3 +339,200 @@ headerTwo {
     letter-spacing: 0%;
     color: #97A1B0;
 }
+
+.Tri {
+    margin-top: 112px;
+    width: auto;
+    height: 435px;    
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.Tri > h1 {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+    margin-right: 244px;
+}
+
+.text4 {
+    display: flex;
+    gap: 33px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box1 > h2 {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+}
+
+.box1 > h3 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.63px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.box1 > p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #97A1B0;
+}
+
+.Chetiri {
+    width: auto;
+    height: 936px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 112px;
+}
+
+.proekt {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.textMin1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.textMin1 > h3 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.textMin1 > a {
+    text-decoration: none;
+}
+
+.textMin1 > a > p {
+    width: 155px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0%;
+    color: black;
+    border-bottom: 1px solid #E3E8ED;
+}
+
+.b {
+    display: flex;
+    gap: 82px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.min {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.min > h3 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    color: #97A1B0;
+}
+
+.min > p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0%;
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 287px;
+    height: 56px;
+    border: 1px solid;
+    color: #E3E8ED;
+    margin-top: 40px;
+    margin-right: 810px;
+}
+
+.Chetiri > a {
+    text-decoration: none;
+}
+
+.button1 > p {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0%;
+    color: black;
+}
+
+.Five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 112px;
+    gap: 23px;
+}
+
+.t {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
+
+.t > h1 {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1%;
+    border-bottom: 1px solid #E3E8ED;
+}
+
+.Five > p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0%;
+    margin-right: 280px;
+}
