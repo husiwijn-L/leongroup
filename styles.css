@@ -827,3 +827,124 @@ headerTwo {
     letter-spacing: 0%;
     color: #FFFFFF;
 }
+
+headerCSS {
+    display: none;
+}
+
+.text1 > h1 {
+    margin-right: 110px;
+}
+
+.text1 > h2 {
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        display: none;
+    }
+
+    headerTwo {
+        display: none;
+    }
+
+    .e {
+        display: none;
+    }
+
+    headerCSS {
+        display: flex;
+        gap: 68px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+    }
+
+    .mini1 {
+        display: flex;
+        gap: 24px;
+    }
+
+    .Odin {
+        margin-top: -5px;
+    }
+
+    .text1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 16px;
+        width: 315px;
+    }
+
+    .text1 > h1 {
+        display: none;
+    }
+
+    .text1 > h2 {
+        font-family: "Inter";
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 41.15px;
+        letter-spacing: -1%;
+        display: flex;
+    }
+
+    .text1 > p {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0%;
+    }
+
+    .sl > img {
+        width: 380px;
+        height: 220px;
+    }
+
+    .slider-c {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .text2 {
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 16px;
+        gap: 16px;
+    }
+
+    .minText2 > h3 {
+        font-family: "Inter";
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        border-bottom: none;
+    }
+
+    .minText2 > p {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
+
+    .slider-t {
+        margin-left: 230px;
+    }
+
+    .l {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
