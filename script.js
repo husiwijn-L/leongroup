@@ -2,6 +2,8 @@ const slider = document.querySelector(".slider");
 const slides = document.querySelectorAll(".sl"); 
 const l = document.querySelector(".l");
 const r = document.querySelector(".r");
+const l1 = document.querySelector(".l1");
+const r1 = document.querySelector(".r1");
 const textSlides = document.querySelectorAll(".slide"); 
 
 let point = 0;
@@ -28,6 +30,24 @@ r.addEventListener("click", () => {
 });
 
 l.addEventListener("click", () => {
+    if (point > 0) {
+        point--;
+    } else {
+        point = slides.length - 1;
+    }
+    testSlid();
+});
+
+r1.addEventListener("click", () => {
+    if (point < slides.length - 1) {
+        point++;
+    } else {
+        point = 0;
+    }
+    testSlid();
+});
+
+l1.addEventListener("click", () => {
     if (point > 0) {
         point--;
     } else {
